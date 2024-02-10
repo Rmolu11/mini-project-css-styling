@@ -4,7 +4,7 @@ body{
 
 h1{
     text-align: center;
-    color:blueviolet;
+    color:#c209f0dd;
 }
 
 #header-text{
@@ -17,16 +17,38 @@ h1{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 .card-box{
     display: grid;
     width: 33%;
-    grid-template-columns: repeat(12, );
+    grid-template-columns: repeat(1fr);
+
 }
 
 .pink-background-box{
+   
+}
 
+.dotted-box{
+    border: 2px dashed white;
+}
+
+.bold-header{
+    margin-top:10px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px
+}
+
+.pink-text{
+    color: #c209f0dd;
+}
+
+.white-text{
+    color: white;
 }
 
 footer{
