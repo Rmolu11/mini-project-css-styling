@@ -1,0 +1,34 @@
+body{
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+    color:blueviolet;
+}
+
+#header-text{
+    color:white;
+}
+
+
+#top-level-container{
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card-box{
+    display: grid;
+    width: 33%;
+    grid-template-columns: repeat(12, );
+}
+
+.pink-background-box{
+
+}
+
+footer{
+    text-align: center;
+}
