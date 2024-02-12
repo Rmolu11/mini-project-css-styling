@@ -9,11 +9,12 @@ h1{
 
 #header-text{
     color:white;
+    text-align:center;
 }
 
 
 #top-level-container{
-    background-color: gray;
+    background-color: rgb(80, 79, 79);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -24,24 +25,32 @@ h1{
 }
 
 .card-box{
-    
-    grid-template-columns: repeat(1fr);
-    flex: 1 1 33%
-
+    padding:10px;
+    flex: 1 1 30%;
 }
 
 .pink-background-box{
-   
+   align-items: baseline;
+   background-image:linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6) 100%);
+   border-radius: 8px;
+}
+
+.pink-background-box :hover{
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+    
 }
 
 .dotted-box{
     border: 2px dashed white;
+    
 }
 
 .bold-header{
     text-align: center;
     border: 2px solid white;
-    border-radius: 5px
+    border-radius: 5px;
+    color: rgba(232, 102, 236, 1);
+    font-weight: bolder;
 }
 
 .pink-text{
